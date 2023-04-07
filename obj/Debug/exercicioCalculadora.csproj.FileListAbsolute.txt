@@ -1,0 +1,10 @@
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\bin\Debug\exercicioCalculadora.exe.config
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\bin\Debug\exercicioCalculadora.exe
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\bin\Debug\exercicioCalculadora.pdb
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\obj\Debug\exercicioCalculadora.csproj.AssemblyReference.cache
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\obj\Debug\exercicioCalculadora.Form1.resources
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\obj\Debug\exercicioCalculadora.Properties.Resources.resources
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\obj\Debug\exercicioCalculadora.csproj.GenerateResource.cache
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\obj\Debug\exercicioCalculadora.csproj.CoreCompileInputs.cache
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\obj\Debug\exercicioCalculadora.exe
+D:\COTIL\2º ano\DAD\C#\exercicioCalculadora\obj\Debug\exercicioCalculadora.pdb
