@@ -77,6 +77,7 @@ namespace exercicioCalculadora
         private void clear_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
+            result = 0;
         }
 
         private void point_Click(object sender, EventArgs e)
@@ -89,13 +90,15 @@ namespace exercicioCalculadora
         {
             operacao = 1;
             num1 = double.Parse(textBox1.Text);
-            textBox1.Clear();    
+            result = result + num1;
+            textBox1.Clear();
         }
 
         private void sub_Click(object sender, EventArgs e)
         {
             operacao = 2;
             num1 = double.Parse(textBox1.Text);
+            result -= num1;
             textBox1.Clear();
         }
 
@@ -103,6 +106,7 @@ namespace exercicioCalculadora
         {
             operacao = 3;
             num1 = double.Parse(textBox1.Text);
+            result *= num1;
             textBox1.Clear();
         }
 
@@ -110,6 +114,7 @@ namespace exercicioCalculadora
         {
             operacao = 4;
             num1 = double.Parse(textBox1.Text);
+            result /= num1;
             textBox1.Clear();
         }
 
@@ -117,14 +122,19 @@ namespace exercicioCalculadora
         {
             if (String.IsNullOrEmpty(textBox1.Text))
                 textBox1.Text = "ERRO";
-            else if (operacao == 1)
-                result = num1 + double.Parse(textBox1.Text);
-            else if (operacao == 2)
-                result = num1 - double.Parse(textBox1.Text);
-            else if (operacao == 3)
-                result = num1 * double.Parse(textBox1.Text);
-            else if (operacao == 4)
-                result = num1 / double.Parse(textBox1.Text);
+            else if (operacao == 1)//soma
+                result += double.Parse(textBox1.Text);
+            else if (operacao == 2)//sub
+                result -= double.Parse(textBox1.Text);
+            else if (operacao == 3)//multiplicaçao
+                result *= double.Parse(textBox1.Text);
+            else if (operacao == 4)//divisão
+            {
+                if (double.Parse(textBox1.Text) != 0)
+                {
+                    result /= double.Parse(textBox1.Text);
+                }
+            }
 
             textBox1.Text = result.ToString();
             operacao = -1;
