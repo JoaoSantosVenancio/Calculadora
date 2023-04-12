@@ -118,6 +118,11 @@ namespace exercicioCalculadora
             textBox1.Clear();
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void equals_Click(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(textBox1.Text))
